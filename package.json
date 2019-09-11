@@ -1,0 +1,31 @@
+{
+  "name": "typescript-kata",
+  "version": "1.0.0",
+  "description": "A collection of TypeScript Katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"src/*.spec.ts\" npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugchock/typescript-kata.git"
+  },
+  "keywords": [
+    "typescript",
+    "kata"
+  ],
+  "author": "Jugchock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jugchock/typescript-kata/issues"
+  },
+  "homepage": "https://github.com/jugchock/typescript-kata#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "jasmine": "^3.4.0",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "spec_dir": "src",
+  "spec_files": ["**/*.spec.ts"],
+  "helpers": ["helpers/**/*.ts"],
+  "oneFailurePerSpec": false,
+  "reporter": "jasmine-spec-reporter",
+  "random": true
+}
