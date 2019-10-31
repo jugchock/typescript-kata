@@ -8,11 +8,7 @@
 // return true if input is the string "true", otherwise return false
 // use an if statement
 export function ifTest(input: string): boolean {
-  if (input === 'true') {
-    return true;
-  }
-
-  return false;
+  return true;
 }
 
 // return the string "true" if input is true,
@@ -20,11 +16,5 @@ export function ifTest(input: string): boolean {
 // the string "neither" if input is anything else
 // use an if/else statement
 export function ifElseTest(input: any): string {
-  if (input === true) {
-    return 'true';
-  } else if (input === false) {
-    return 'false';
-  } else {
-    return 'neither';
-  }
+  return 'true';
 }
