@@ -6,4 +6,5 @@
 
 // return the value passed in
 export function returnValue(input: any): any {
+  return input;
 }
