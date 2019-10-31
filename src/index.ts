@@ -9,27 +9,9 @@
 // return {inString} concatenated {times} times
 // use a for loop
 export function forTest(inString: string, times: number): string {
-  let result = '';
-
-  for (let i = 0; i < times; i++) {
-    result += inString;
-  }
-
-  return result;
+  return '';
 }
 
 export function isPalindromeFor(test: string): boolean {
-  if (test.length < 2) {
-    return true;
-  }
-
-  let result = true;
-  for (let start = 0, end = test.length - 1; start < end; start++ , end--) {
-    if (test[start] !== test[end]) {
-      result = false;
-      break;
-    }
-  }
-
-  return result;
+  return true;
 }
