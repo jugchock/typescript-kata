@@ -5,5 +5,6 @@
 // previous: start
 
 // add the two values passed in
-export function add(inputA: number, inputB: number): any {
+export function add(inputA: number, inputB: number): number {
+  return inputA + inputB;
 }
